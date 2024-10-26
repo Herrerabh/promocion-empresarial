@@ -6,6 +6,7 @@ import pe.utp.promocion_empresarial.entidad.TipoContribuyente;
 import pe.utp.promocion_empresarial.entidad.Usuario;
 
 public interface EmprendedorDto {
+
     Long getEmprendedorId();
 
     String getEmprendedorRuc();
