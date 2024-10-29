@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.Set;
 
@@ -32,10 +34,10 @@ public class Evento {
     private Date eventoFechaFin;
 
     @Column(name="even_hora_inicio", nullable = false)
-    private Date eventoHoraInicio;
+    private LocalTime eventoHoraInicio;
 
     @Column(name="even_hora_fin", nullable = false)
-    private Date eventoHoraFin;
+    private LocalTime eventoHoraFin;
 
     @Column(name="even_lugar", nullable = false,length = 150)
     private String eventoLugar;

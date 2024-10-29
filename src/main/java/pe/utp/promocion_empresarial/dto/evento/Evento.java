@@ -2,6 +2,7 @@ package pe.utp.promocion_empresarial.dto.evento;
 
 import pe.utp.promocion_empresarial.entidad.TipoEvento;
 
+import java.time.LocalTime;
 import java.util.Date;
 
 public interface Evento {
@@ -16,9 +17,9 @@ public interface Evento {
 
     Date getEventoFechaFin();
 
-    Date getEventoHoraInicio();
+    LocalTime getEventoHoraInicio();
 
-    Date getEventoHoraFin();
+    LocalTime getEventoHoraFin();
 
     String getEventoLugar();
 
