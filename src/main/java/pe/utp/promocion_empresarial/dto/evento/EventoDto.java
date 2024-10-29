@@ -5,7 +5,7 @@ import pe.utp.promocion_empresarial.entidad.TipoEvento;
 import java.time.LocalTime;
 import java.util.Date;
 
-public interface Evento {
+public interface EventoDto {
 
     Long getEventoId();
 
