@@ -18,6 +18,7 @@ public class EmprendedorServicioImpl implements EmprendedorServicio {
     public List<EmprendedorDto> findAllEmprendedores() {
         return emprendedorRepositorio.findAllBy();
     }
+
     @Override
     public EmprendedorDto findEmprendedorById(Long emprendedorId) {
         return emprendedorRepositorio.findByEmprendedorId(emprendedorId);
